@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,12 +10,19 @@ body{
     justify-content: center;
     /* align-items: center; */
     /* background-color: ; */
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width:100vw;
+    height: 100vh;
+    font-family: 'Comfortaa', cursive;
 }
 .container{
     position: relative;
-    top:30vh;
-    border:2px solid red;
-    width:70vw;
+    top:20vh;
+    /* border:2px solid red; */
+    width:50vw;
+    height:70vh;
 
 }
 #subContainer{
@@ -26,16 +34,23 @@ body{
 }
 #subContainer h1{
     font-size: 50px;;
+    color: white;
 }
 .Styling{
     font-size: 80px;
+    color: white;
 }
 .buttons{
     /* display: flex; */
     /* justify-content: space-around; */
     margin:10px;
+ 
 }
 .buttonStyle{
     width:5rem;
     height:3rem;
+    border-radius: 1rem;
+}
+.buttonStyle:hover{
+    cursor: pointer;
 }
